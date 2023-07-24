@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Bring the bird back",
+    "version": "0.0.1",
+    "description": "Removed the X logo and put the bird back",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://twitter.com/*"
+            ],
+            "js": [
+                "./index.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ],
+    "icons": {
+        "16": "./icon.png",
+        "48": "./icon.png",
+        "128": "./icon.png"
+    }
+}
