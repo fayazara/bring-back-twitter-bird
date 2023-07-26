@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
     "name": "Bring the bird back",
-    "version": "0.0.1",
-    "description": "Removed the X logo and put the bird back",
+    "version": "0.0.2",
+    "description": "Removes the \"X\" logo from twitter.com and brings the bird logo back.",
     "content_scripts": [
         {
             "matches": [
